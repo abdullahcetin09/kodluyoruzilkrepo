@@ -1,0 +1,15 @@
+# IDE
+.vscode/*
+!.vscode/settings.json
+
+# img
+*.jpg
+*.png
+
+
+#videos
+*.mp4
+
+
+#log
+*.log
