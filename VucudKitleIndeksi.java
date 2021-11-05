@@ -11,6 +11,7 @@ public class VucudKitleIndeksi {
         System.out.print("\nLütfen kilonuzu giriniz :");
         kilo=in.nextFloat();
         System.out.print("\nVücut Kitle İndeksiniz :"+ (kilo/(boy*boy)));
+        in.close();
     }
     
 }
