@@ -9,8 +9,9 @@ public class Kdv {
         System.out.println("Bir tutar giriniz ?");
         deger=inp.nextDouble();
         inp.close();
-        if(deger <=1000){kdvorani= 0.18;}
-        else{kdvorani=0.08;}
+        kdvorani=(deger>=1000)?0.18:0.08;
+        //if(deger <=1000){kdvorani= 0.18;}
+        //else{kdvorani=0.08;}
         kdv=deger*kdvorani;
         kdvli=deger+kdv;
     
