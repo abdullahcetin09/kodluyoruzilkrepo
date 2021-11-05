@@ -20,7 +20,7 @@ class InsertionSort{
         
     }
     public static void main(String args[]){
-        int arr[]={22,27,16,2,18,6};
+        int arr[]={7,3,5,8,2,9,4,15,6};
         InsertionSort sırala=new InsertionSort();
         sırala.sort(arr);
         printArray(arr);

@@ -80,7 +80,7 @@ public class OrtlamaHesaplama {
         str=kosul ?" Tebrikler... Geçtiniz":"Üzgünüz! Kaldınız";
         System.out.println(str); 
         
-
+        inp.close();
 
     }
     
